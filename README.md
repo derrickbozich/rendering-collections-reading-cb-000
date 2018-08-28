@@ -1,8 +1,10 @@
 ## Objectives
 
  1. Use the `collection` keyword with partials
- 2. Pass a collection to the render method 
+ 2. Pass a collection to the render method
  3. Handle empty collections
+
+ change
 
 ## Overview
 Up until now our only way to render collections was somewhat manually.  We could iterate over an array and render the partial for each object in the array.  Let's see how Rails can abstract this into a nicer syntax.
@@ -47,7 +49,7 @@ What happens if the collection you pass to your render call is empty?  If you do
 ##Conclusion
 As always, Rails has tried to abstract commonly used functionality into more terse and implicit code.  Experiment with these tricks in the upcoming lab.
 
-## Video Review 
+## Video Review
 
 * [Partials and Collections](https://www.youtube.com/watch?v=XpthyOc767U)
 
